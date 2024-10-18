@@ -5,16 +5,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController 
 {
-	int a;
-	int b;
+	int a=30;
+	int b=20;
 	public void add()
 	{
-		int c=a+b;
+		int c=30+20;
 		System.out.println(c);
 	}
 	public  void sub()
 	{
-		int d=a-b;
+		int d=30-20;
 		System.out.println(d);
 			
 	}
