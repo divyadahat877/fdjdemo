@@ -1,5 +1,8 @@
 package com.cjc.calculator.app.controller;
 
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class HomeController 
 {
 	int a;
